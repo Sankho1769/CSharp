@@ -1,0 +1,12 @@
+using System;
+class Program {
+    static void Main() {
+        Console.Write("Enter limit: ");
+        int n = int.Parse(Console.ReadLine());
+        int i = 1;
+        while (i <= n) {
+            Console.Write(i + " ");
+            i++;
+        }
+    }
+}
